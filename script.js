@@ -51,6 +51,14 @@ const removeError = function () {
     peopleInput.style.outlineColor = "#26C2AE";
 }
 
+// Reset des boutons si Custom tip
+
+customTip.addEventListener("click", () => {
+    tipChoice.forEach((element) => {
+        element.checked = false;
+    })
+});
+
 // 1. Récupération de la valeur du tip,
 // 2. changer la couleur du bouton,
 // 3. reset les autres boutons.
@@ -63,7 +71,7 @@ const tip = function (tip) {
 
 
 const calculation = function () {
-    if (peopleValue > 0 && tipValue !== "" && billValue !== "") {
+    if (peopleValue > 0 && billValue !== "") {
 
         // Calcul du tip
 
@@ -73,7 +81,7 @@ const calculation = function () {
 
         // Calcul du total
 
-        const tempTotal = tipAmountTotal + billValue;
+        const tempTotal = (tipAmountTotal + billValue) / peopleValue;
         const total = Math.round(tempTotal * 100) / 100;
 
         // Supprime l'erreur du nombre de personne
