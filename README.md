@@ -10,9 +10,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Workablery/tip_calculator
+- Solution URL: 
 
-- Live Site URL: https://workablery.github.io/tip_calculator/
+- Live Site URL: 
 
 ## My process
 
@@ -26,6 +26,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Workablery Design](https://github.com/Workablery)
-- Frontend Mentor - [@Workablery](https://www.frontendmentor.io/profile/Workablery)
-- LinkedIn - [Grégory Locigno](https://www.linkedin.com/in/greglocigno/)
+- GitHub -
